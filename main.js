@@ -1,12 +1,15 @@
 // ***************************_1_****************************
-// mission1Array = [1, 2, 3, 4, 5, 6, 7, 8]
 // function missionOne(missionOneArray){
-//         missionOneArray.reverse();
-//         return missionOneArray;
+//     newArray=[];
+//     for(var i=missionOneArray.length-1; i>=0; i--){
+//         newArray.push(missionOneArray[i]);
+//     }
+//     return newArray;
 // }
-// console.log(missionOne(mission1Array));
+// mission1Array = [1, 2, 3, 4, 5, 6, 7, 8];
+// var result = missionOne(mission1Array);
+// console.log(result);
 // ***************************_1_****************************
-
 
 
 
@@ -37,22 +40,41 @@
 
 
 // ***************************_3_****************************
-
-
+// function mostCommon(array){
+//     var max=0;
+//     var char;
+//     for(var i=0; i<array.length;i++){
+//         var counter=0;
+//         for(var j=i+1; j<array.length;j++){
+//             if(array[i] == array[j]){
+//                 counter++;
+//             }
+//             if(counter>max){
+//                 max = counter;
+//                 char=array[i];
+//             }
+//         }
+//     }
+//     return char;
+// }
+// var numArray=[1,2,3,4,1,5,6,2,2,2,7,7];
+// var result = mostCommon(numArray);
+// console.log(result);
 // ***************************_3_****************************
 
 
 
 
 // ***************************_4_****************************
-// var fact = 1;
 // function missionFour(missionFour){
+//     var fact = 1;
 //     for(var i=1; i<=missionFour;i++){
-//         fact= fact*i;
+//         fact*=i;
 //     }
 //     return fact;
 // }
-// console.log(missionFour(8));
+// var result = missionFour(4);
+// console.log(result);
 // ***************************_4_****************************
 
 
